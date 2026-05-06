@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warnadoone 134 | Luxury Beachfront Accommodation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:'Inter', sans-serif; color:#222; background:#f5f7fa; }
+
+    /* HERO */
+    .hero {
+      height: 70vh;
+      background: url('hero.jpg') center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:white;
+      position:relative;
+    }
+    .hero::after {
+      content:"";
+      position:absolute;
+      inset:0;
+      background:rgba(0,0,0,0.45);
+    }
+    .hero-content {
+      position:relative;
+      z-index:2;
+    }
+    .hero h1 { font-size:3rem; margin:0; }
+    .hero p { font-size:1.2rem; margin-top:10px; }
+
+    /* NAV */
+    nav {
+      background:white;
+      padding:15px;
+      text-align:center;
+      position:sticky;
+      top:0;
+      box-shadow:0 2px 6px rgba(0,0,0,0.05);
+    }
+    nav a {
+      margin:0 15px;
+      text-decoration:none;
+      color:#333;
+      font-weight:600;
+    }
+
+    /* SECTIONS */
+    section {
+      max-width:1100px;
+      margin:40px auto;
+      padding:30px;
+      background:white;
+      border-radius:12px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    }
+    h2 { margin-top:0; }
+
+    /* FEATURES */
+    .features {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap:15px;
+    }
+    .feature {
+      background:#f0f4f8;
+      padding:15px;
+      border-radius:10px;
+      text-align:center;
+      font-weight:500;
+    }
+
+    /* GALLERY */
+    .gallery {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap:10px;
+    }
+    .gallery img {
+      width:100%;
+      border-radius:10px;
+      height:200px;
+      object-fit:cover;
+    }
+
+    /* CONTACT */
+    .contact p { line-height:1.6; }
+
+    /* WHATSAPP */
+    .whatsapp {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:15px 20px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:bold;
+      box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align:center;
+      padding:20px;
+      background:#0a2540;
+      color:white;
+      margin-top:40px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <h1>Warnadoone 134</h1>
+    <p>Luxury beachfront accommodation in Warner Beach, Amanzimtoti</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#about">About</a>
+  <a href="#features">Features</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About the Property</h2>
+  <p>
+    Wake up to breathtaking ocean views and the sound of waves crashing right outside your window. Warnadoone 134 is a spacious beachfront apartment in Warner Beach offering the perfect blend of comfort, relaxation, and convenience. Ideal for families, couples, or holidaymakers looking for a memorable seaside escape.
+  </p>
+  <p>
+    Enjoy direct beach access, secure parking, free WiFi, a fully equipped kitchen, braai facilities, and panoramic sea views from the living area and bedrooms.
+  </p>
+  <p>
+    • Bedrooms: 2 <br>
+    • Bathrooms: 2 <br>
+    • Sleeps: 6 Guests <br>
+  </p>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+  <h2>Features & Amenities</h2>
+  <div class="features">
+    <div class="feature">🌊 Beachfront</div>
+    <div class="feature">📶 Free WiFi</div>
+    <div class="feature">🚗 Secure Parking</div>
+    <div class="feature">🍳 Fully Equipped Kitchen</div>
+    <div class="feature">👨‍👩‍👧 Family Friendly</div>
+    <div class="feature">🌅 Panoramic Sea Views</div>
+    <div class="feature">📺 Smart TV</div>
+    <div class="feature">🧺 Washing Machine</div>
+    <div class="feature">🔥 Braai Area</div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <h2>Guest Reviews</h2>
+  <div class="features">
+    <div class="feature">
+      ⭐⭐⭐⭐⭐<br><br>
+      “Awesome. Great, clean, safe. Well maintained beach.”<br><br>
+      – Malcolm N
+    </div>
+
+    <div class="feature">
+      ⭐⭐⭐⭐⭐<br><br>
+      “Onvergeetlik. Alles wat julle aangebied het, was daar.”<br><br>
+      – J.P. Nonnie D
+    </div>
+
+    <div class="feature">
+      ⭐⭐⭐⭐⭐<br><br>
+      “Netjiese eenheid. Die uitsig was fantasties.”<br><br>
+      – Elize F
+    </div>
+  </div>
+  <p style="margin-top:20px; font-size:14px; color:#666;">
+    Reviews sourced from LekkeSlaap guest feedback.
+  </p>
+</section>
+
+<!-- MAP -->
+<section id="map">
+  <h2>Location</h2>
+  <p>
+    Located directly across from Warner Beach with easy access to restaurants, shops, and local attractions.
+  </p>
+
+  <iframe
+    src="https://www.google.com/maps?q=8%20Ashwell%20Road%2C%20Warnadoone%20Flats%2C%20Warner%20Beach&output=embed"
+    width="100%"
+    height="400"
+    style="border:0; border-radius:12px;"
+    allowfullscreen=""
+    loading="lazy">
+  </iframe>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="bedroom1.jpg">
+    <img src="bedroom2.jpg">
+    <img src="sea-view.jpg">
+    <img src="kitchen.jpg">
+    <img src="lounge.jpg">
+    <img src="bathroom.jpg">
+    <img src="beach.jpg">
+    <img src="braai.jpg">
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact & Bookings</h2>
+  <p><!-- EDIT THIS -->
+    For bookings, availability, and enquiries, contact us directly via WhatsApp or email. We respond quickly and are happy to assist with your stay.
+  </p>
+  <p>
+    WhatsApp: +27 73 151 0493 <br>
+    Email: tvanderwalt42@gmail.com
+  </p>
+</section>
+
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp" href="https://wa.me/27731510493" target="_blank">
+  WhatsApp Us
+</a>
+
+<footer>
+  <p>© 2026 Warnadoone 134 | Warner Beach, Amanzimtoti</p>
+</footer>
+
+</body>
+</html>
